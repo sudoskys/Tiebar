@@ -38,6 +38,10 @@ Tell people where they can go to for help. It can be any combination of an issue
 | Jsoup|https://github.com/jhy/jsoup|Java HTML Parser|
 | Gitkit|https://github.com/sudoskys/Gitpuller|LUA github api类库|
 | Yaml |https://github.com/search?q=YAML+java|Yaml so库|
+| SnackBar |QQ|“比寒哥的更好用，更好看，更专业的SnackerBar”|
+| 波纹点击实现 |pretend|Pretend|
+| 截取UTF8 |https://blog.csdn.net/fenrir_sun/article/details/52232723|fenrir_sun|
+
 
 
 ## 免责声明

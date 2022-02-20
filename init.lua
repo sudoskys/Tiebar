@@ -1,5 +1,5 @@
 appname="Tiebar"
-appver="1.0.1"
+appver="1.0.2"
 appcode="6"
 appsdk="20"
 packagename="com.lua.tieba"

@@ -3,10 +3,25 @@ import "android.app.*"
 import "android.os.*"
 import "android.widget.*"
 import "android.view.*"
+
+
+import "android.content.Intent"
+import "android.content.res.ColorStateList"
+import "android.net.Uri"
+import "android.os.Environment"
+import "android.widget.CardView"
+import "android.widget.CheckBox"
+import "android.widget.LinearLayout"
+import "android.widget.TextView"
+import "com.androlua.LuaWebView"
+import "java.io.File"
+
 --about
 --author = 'sudoskys'
 --project = 'Tiebar'
 --url = github@sudoskys-Tiebar
+md=require "md"
+
 import "run.base"
 import "res.value"
 mains={
@@ -76,7 +91,7 @@ activity.setContentView(loadlayout(mains))
 
 data=io.open(activity.getLuaDir().."/license.txt"):read("*a")
 --print(data)
-WebViewd.loadDataWithBaseURL("",MDTool.markdown2Html(data),"text/html","utf-8",nil)import "android.content.res.ColorStateList"
+WebViewd.loadDataWithBaseURL("",md(data),"text/html","utf-8",nil)
 --data:close()
 colorStateList=ColorStateList({{android.R.attr.state_checked},{}},{0xff2196f3,0xffcccccc})
 colorStateList2=ColorStateList({{android.R.attr.state_checked},{}},{0x662196f3,0x66cccccc})
@@ -113,20 +128,13 @@ isok.setOnCheckedChangeListener
 }
 
 
+function checkPermission(jdpuk)return 0==this.getSystemService("appops").checkOp("android:"..jdpuk:lower(),Binder.callingUid,this.packageName)end
+
 if not checkPermission("READ_EXTERNAL_STORAGE")then
-  弹出消息"请授予文件权限"
+  print"请授予文件权限"
   this.startActivity(Intent("android.settings.APPLICATION_DETAILS_SETTINGS",
   Uri.fromParts("package",this.packageName,nil)))
 end
 import "java.io.File"
 import "android.os.Environment"
---创目录
-function Openroad()
-  root_path=Environment.getExternalStorageDirectory().toString().."/tiebar/"
-  pics=root_path.."picture/"
-  File(root_path).mkdirs()
-  File(pics).mkdirs()
-  noteDirFile=File(note)
-  notePath=root_path
-end
-Openroad()
+

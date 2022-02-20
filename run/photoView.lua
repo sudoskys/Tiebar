@@ -112,7 +112,7 @@ mPhotoView.onClick=function()
   activity.finish()
 end
 
-
+ 
 import "libs.SnackerBar"
 items={}
 table.insert(items,"分享")

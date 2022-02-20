@@ -1,70 +1,17 @@
 # Tiebar
+贴吧，nice bar
 
-百度贴吧的Androlua实现客户端DEMO
+![2](https://img.shields.io/badge/开源协议-ApacheLicence2.0-ff69b4)
 
-## Getting started
+![3](https://img.shields.io/badge/USE-lua-yellow)
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
-
-## Add your files
-
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
-
-```
-cd existing_repo
-git remote add origin https://gitlab.com/45iron/tiebar.git
-git branch -M main
-git push -uf origin main
-```
-
-## Integrate with your tools
-
-- [ ] [Set up project integrations](https://gitlab.com/45iron/tiebar/-/settings/integrations)
-
-## Collaborate with your team
-
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Automatically merge when pipeline succeeds](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
-
-## Test and Deploy
-
-Use the built-in continuous integration in GitLab.
-
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing(SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
-
-***
-
-# Editing this README
-
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!).  Thank you to [makeareadme.com](https://www.makeareadme.com/) for this template.
-
-## Suggestions for a good README
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
-## Name
-Choose a self-explaining name for your project.
 
 ## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+贴吧的Androlua实现客户端DEMO
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+## Project status
+![1](https://img.shields.io/badge/%E9%A1%B9%E7%9B%AE%E7%8A%B6%E6%80%81-%E9%97%B2%E7%BD%AE-ff69b4)
 
 ## Usage
 Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
@@ -72,21 +19,62 @@ Use examples liberally, and show the expected output if you can. It's helpful to
 ## Support
 Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+## Design
+![roadmap](https://s3.bmp.ovh/imgs/2022/02/b40b9b277e5b66d3.png)
+
 
 ## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+欢迎贡献本仓库
 
 ## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+|开源项目鸣谢|链接|描述|
+|------|-----|-----|
+|图萌|https://github.com/daisukiKaffuChino/TuMeng|TuMeng is an ACGN wallpaper view App built with Androlua+. |
+| Androlua|https://github.com/mkottman/AndroLua|AndroLua is the Lua interpreter ported to the Android platform.|
+| Glide|https://github.com/bumptech/glide|Glide是一个快速高效的Android图片加载库，注重于平滑的滚动。|
+| LuaMarkdown|https://github.com/speedata/luamarkdown|This is a copy from http://www.frykholm.se/files/markdown.lua |
+| coolapk photoview|Tumeng项目附带|tumeng|
+| Jsoup|https://github.com/jhy/jsoup|Java HTML Parser|
+| Gitkit|https://github.com/sudoskys/Gitpuller|LUA github api类库|
+| Yaml |https://github.com/search?q=YAML+java|Yaml so库|
+
+
+## 免责声明
+```text
+本项目创建旨在用于Androlua社区内的技术交流
+
+本项目所提供的信息和技术，只供参考之用，不提供任何服务与成品，请勿分发使用此项目源码编译的应用。
+
+其他人一概毋须以任何方式就任何信息传递或传送的失误、不准确或错误对用户或任何其他人士负任何直接或间接的责任。
+
+任何人不得侵犯百度的任何合法权益，使用者应自行遵守百度相关的用户协议，不得爬取百度禁止的内容，否则责任自行
+承担，本项目及项目提供者不承担任何直接或间接的责任。
+
+在法律允许的范围内，本项目在此声明，不承担用户或任何人士就使用或未能使用本项目所提供的信息或任何链接或项目
+所引致的任何直接、间接、附带、从属、特殊、惩罚性或惩戒性的损害赔偿（包括但不限于收益、预期利润的损失或失去
+的业务、未实现预期的节省）。
+
+本项目所提供的信息，若在任何司法管辖地区供任何人士使用或分发给任何人士时会违反该司法管辖地区的法律或条例的
+规定或会导致本项目或其第三方代理人受限于该司法管辖地区内的任何监管规定时，则该等信息不宜在该司法管辖地区供
+该等任何人士使用或分发给该等任何人士。用户须自行保证不会受限于任何限制或禁止用户使用或分发本项目所提供信息
+的当地的规定。
+
+本项目图片，文字之类版权申明，因为项目可以由用户自行下载修改，本项目无法鉴别所上传图片或文字的知识版权，如
+果侵犯，请及时通知我们，本项目将在第一时间及时删除。
+
+凡以任何方式下载使用本项目或直接、间接使用本项目资料者，视为自愿接受本项目声明的约束。
+```
+
 
 ## License
-For open source projects, say how it is licensed.
+View this project license.
 
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+```text
+Apache Licence是著名的非盈利开源组织Apache采用的协议。该协议和BSD类似，同样鼓励代码共享和尊重原作者的著作权，同样允许代码修改，再发布（作为开源或商业软件）。需要满足的条件也和BSD类似：
+
+需要给代码的用户一份Apache Licence如果你修改了代码，需要再被修改的文件中说明。在延伸的代码中（修改和有源代码衍生的代码中）需要带有原来代码中的协议，商标，专利声明和其他原来作者规定需要包含的说明。如果再发布的产品中包含一个Notice文件，则在Notice文件中需要带有Apache Licence。你可以在Notice中增加自己的许可，但不可以表现为对Apache Licence构成更改。
+
+Apache Licence也是对商业应用友好的许可。使用者也可以在需要的时候修改代码来满足需要并作为开源或商业产品发布/销售。
+```
+

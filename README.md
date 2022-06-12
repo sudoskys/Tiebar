@@ -13,11 +13,6 @@
 ## Project status
 ![1](https://img.shields.io/badge/%E9%A1%B9%E7%9B%AE%E7%8A%B6%E6%80%81-%E9%97%B2%E7%BD%AE-ff69b4)
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
 
 ## Design
 ![roadmap](https://s3.bmp.ovh/imgs/2022/02/b40b9b277e5b66d3.png)

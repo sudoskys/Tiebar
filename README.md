@@ -3,7 +3,7 @@
 
 ![2](https://img.shields.io/badge/开源协议-ApacheLicence2.0-ff69b4)
 
-![3](https://img.shields.io/badge/USE-lua-yellow) [![s](https://img.shields.io/badge/Become-sponsor-DB94A2)](https://dun.mianbaoduo.com/@Sky0717)
+![3](https://img.shields.io/badge/USE-lua-yellow) 
 
 
 文档
